@@ -1,0 +1,17 @@
+{
+	"name": "sarke/php-codesniffer-standard",
+	"description": "My preference for PHP CodeSniffer (Allman, tabs, etc)",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "George Kakosouris",
+			"homepage": "https://github.com/giant-robot"
+		},
+		{
+			"name": "Peter Stalman",
+			"email": "peter@sarkedev.com"
+		}
+	],
+	"require": {}
+}

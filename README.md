@@ -1,5 +1,5 @@
-# GiantRobot PHP CodeSniffer Standard
-A coding style based on [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md) with Allman style braces in control structures.
+# PHP CodeSniffer Standard
+A coding style based on [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md) with Allman style braces in control structures, and tabs.
 
 The resulting style rules for control structures are as follows:
 
