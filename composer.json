@@ -1,5 +1,5 @@
 {
-	"name": "sarke/php-codesniffer-standard",
+	"name": "sarke/codesniffer-standard",
 	"description": "My preference for PHP CodeSniffer (Allman, tabs, etc)",
 	"type": "library",
 	"license": "MIT",

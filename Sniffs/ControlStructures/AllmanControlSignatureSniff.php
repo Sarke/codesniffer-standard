@@ -5,8 +5,16 @@
  *
  * It verifies that control statements are using Allman style braces and are
  * otherwise PSR-2 compliant.
+ * 
+ * @link https://github.com/giant-robot/php-codesniffer-standard/blob/master/Sniffs/ControlStructures/AllmanControlSignatureSniff.php
  */
-class GiantRobot_Sniffs_ControlStructures_AllmanControlSignatureSniff implements PHP_CodeSniffer_Sniff
+
+namespace Sarke\CodeSnifferStandards\Sniffs\ControlStructures;
+
+use PHP_CodeSniffer\Sniffs\Sniff;
+use PHP_CodeSniffer\Files\File;
+
+class AllmanControlSignatureSniff implements Sniff
 {
     /**
      * A list of tokenizers this sniff supports.
@@ -42,10 +50,10 @@ class GiantRobot_Sniffs_ControlStructures_AllmanControlSignatureSniff implements
     /**
      * Processes this test, when one of its tokens is encountered.
      *
-     * @param  PHP_CodeSniffer_File  $phpcsFile  The file being scanned.
-     * @param  int                   $stackPtr   The position of the current token in the stack passed in $tokens.
+     * @param  File  $phpcsFile  The file being scanned.
+     * @param  int   $stackPtr   The position of the current token in the stack passed in $tokens.
      */
-    public function process(PHP_CodeSniffer_File $phpcsFile, $stackPtr)
+    public function process(File $phpcsFile, $stackPtr)
     {
         $tokens = $phpcsFile->getTokens();
 
