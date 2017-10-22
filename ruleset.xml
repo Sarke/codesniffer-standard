@@ -4,11 +4,12 @@
 	<rule ref="PSR2">
 		<exclude name="Generic.WhiteSpace.DisallowTabIndent"/>
 		<exclude name="Squiz.ControlStructures.ControlSignature"/>
+		<exclude name="Generic.ControlStructures.InlineControlStructure.NotAllowed"/>
 	</rule>
 	<rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
-    <rule ref="Generic.WhiteSpace.ScopeIndent">
-        <properties>
-            <property name="tabIndent" value="true"/>
-        </properties>
-    </rule>	
+	<rule ref="Generic.WhiteSpace.ScopeIndent">
+		<properties>
+			<property name="tabIndent" value="true"/>
+		</properties>
+	</rule>
 </ruleset>
